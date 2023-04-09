@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&family=Karla&family=League+Spartan&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+    background-color: rgb(231, 242, 252);
+}
+main {
+    margin: 300px;
+    display: grid;
+    place-content: center;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid none;
+    border-radius: 15px; 
+    gap: 20px;
+    background-color: white;
+}
+@media (max-width: 776px) {
+    section{
+        flex-direction: column;
+    }
+}
+.section-first {
+   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+   border-radius: 15px;
+   padding: 60px 20px;
+   line-height: 40px;
+   text-align: center;
+}
+.section-first header {
+    color: hsl(241, 100%, 89%);
+    font-weight: 700;   
+}
+.score {
+    border-radius: 300px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width:  30%;
+    padding: 30px;
+    margin: 0 50px;
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 20px;
+}
+.score h3{
+    font-size: 50px;
+    color: white !important;
+    font-weight: 800;
+}
+.remark {
+    color: hsl(241, 100%, 89%);
+    line-height: 20px;
+    font-size: 15px;
+}
+.remark h4{
+    font-size: 20px;
+    color: white !important;
+    font-weight: 700;
+}
+.section-second{
+    padding: 10px;
+}
+.section-second header {
+    color: hsl(224, 30%, 27%);
+    font-weight: 800;
+}
+.reaction{
+    display: flex;
+    width: 250px;
+    gap: 30px;
+    padding: 10px;
+    height: 20px;
+    border-radius: 10px;
+    width: 200px;
+    background:  hsl(0, 100%, 98%);
+}
+#reaction{
+    color: hsl(0, 100%, 67%) !important;
+}
+.memory{
+    display: flex;
+    width: 250px;
+    gap: 30px;
+    padding: 10px;
+    height: 20px;
+    border-radius: 10px;
+    width: 200px;
+    background-color:hsl(40, 50%, 98%);
+}
+#memory{
+    color: hsl(39, 100%, 56%);
+}
+.visual{
+    display: flex;
+    width: 250px;
+    gap: 30px;
+    padding: 10px;
+    height: 20px;
+    border-radius: 10px;
+    width: 200px;
+    background-color:   hsl(221, 100%, 96%);
+}
+#visual{
+    color:hsl(234, 85%, 45%);
+}
+.verbal{
+    display: flex;
+    width: 250px;
+    gap: 30px;
+    padding: 10px;
+    height: 20px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: hsl(170, 75%, 98%);
+}
+#verbal{
+    color: hsl(166, 100%, 37%);
+}
+span{
+    color: hsl(223, 14%, 54%);
+}
+button{
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border: 0 solid transparent;
+    border-radius: 20px;
+    color: white;
+    background-color:  rgb(38, 34, 68);
+}
