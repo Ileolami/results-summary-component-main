@@ -26,7 +26,10 @@ section {
 @media (max-width: 776px) {
     section{
         flex-direction: column;
-    }
+}
+ main{
+    margin: auto;
+ }
 }
 .section-first {
    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
